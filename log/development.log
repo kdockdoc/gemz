@@ -1,0 +1,61 @@
+Started GET "/" for ::1 at 2022-01-20 18:45:20 +0000
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.6ms | Allocations: 653)
+Completed 200 OK in 46ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 6386)
+
+
+Started GET "/" for ::1 at 2022-01-20 21:42:23 +0000
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 547)
+Completed 200 OK in 12ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 5110)
+
+
+Started GET "/" for ::1 at 2022-01-20 21:42:33 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 353)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1113)
+
+
+Started GET "/" for ::1 at 2022-01-20 21:42:34 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 22)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 232)
+
+
+Started GET "/home/index" for ::1 at 2022-01-20 21:45:01 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 362.4ms | Allocations: 88970)
+Completed 200 OK in 366ms (Views: 365.4ms | ActiveRecord: 0.0ms | Allocations: 89860)
+
+
+Started GET "/home/index" for ::1 at 2022-01-20 21:46:46 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2535)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3432)
+
+
+Started GET "/home/index" for ::1 at 2022-01-20 21:52:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for ::1 at 2022-01-20 21:53:00 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 13430)
+Completed 200 OK in 23ms (Views: 22.9ms | Allocations: 14066)
+
+
